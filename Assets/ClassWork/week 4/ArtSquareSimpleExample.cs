@@ -26,15 +26,14 @@ namespace Art
                 g.GetComponent<MeshRenderer>().material.color = Random.ColorHSV();
                 float s = Random.value * .25f;
                 float t = Random.value * .75f;
-<<<<<<< HEAD
+
                 g.transform.localScale = new Vector3(s+.1f, s, s);
                 g.transform.position = Random.insideUnitSphere*.5f;
                 g.transform.localEulerAngles = new Vector3(t*0,t*360,t*0);
-=======
-                g.transform.localScale = new Vector3(s+.3f, s, s);
+
+                g.transform.localScale = new Vector3(s+.1f, s, s);
                 g.transform.position = Random.insideUnitSphere*.5f;
-                g.transform.localEulerAngles = new Vector3(t*360,t*360,t*360);
->>>>>>> 75857675ed9d629f844d8c22cacd1a068572db3d
+                g.transform.localEulerAngles = new Vector3(t*0,t*360,t*0);
             }
         }
     }
